@@ -27,7 +27,7 @@ TodoItem.propTypes = {
     deleteItem: PropTypes.func,
     index: PropTypes.number
 }
-TodoItem.propTypes = {
+TodoItem.defaultProps = {
     test: "hello world!"
 }
 export default TodoItem;
