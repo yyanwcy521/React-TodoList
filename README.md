@@ -19,6 +19,7 @@
 ['div',{id:"abc"},{"span",{},"bye bye"}]
 ```
 - 7. 比较原始虚拟DOM和新的虚拟DOM的叙别，找到span中的内容
+Diff算法,key值
 - 8. 直接操作DOM，改变span中的内容
 
 ### DOM转换过程
@@ -30,4 +31,6 @@ React.createElement('div',{},'item');
 ### 优点
 - 1. 性能提升
 - 2. 跨端应用得以实现，React Native
-   -  -  虚拟DOM可以在移动端和网页端
+    -  虚拟DOM可以在移动端和网页端
+
+### 生命周期函数
