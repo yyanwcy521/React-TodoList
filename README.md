@@ -54,3 +54,6 @@ API Provider
 - 样式模块
 styled-components  reset-css 复制代码 匹配各个浏览器
 iconfont.cn
+
+### 动画模块
+- react-transition-group
