@@ -1,6 +1,6 @@
 ## Chrome的扩展工具
 - React Developer Toods
--
+- Redux DevToods
 
 ## React性能提升
 - 1. state 数据
@@ -33,4 +33,24 @@ React.createElement('div',{},'item');
 - 2. 跨端应用得以实现，React Native
     -  虚拟DOM可以在移动端和网页端
 
-### 生命周期函数
+### Redux
+- store 是唯一的
+- 只有store能够改变自己的内容,reducer不能
+- reducer必须是纯函数
+- API
+```
+createStore
+store.dispatch
+store.getState
+store.subscribe
+```
+### 中间件
+- redux-thunk
+- redux-saga
+
+### 第三方的模块
+- React-Redux
+API Provider
+- 样式模块
+styled-components  reset-css 复制代码 匹配各个浏览器
+iconfont.cn
